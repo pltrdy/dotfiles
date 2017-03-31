@@ -12,3 +12,4 @@ alias emacs='emacs -nw'
 
 # Pythonic tricks
 alias prettyjson='python -m json.tool $1'
+alias http_server='python -m http.server 8000'
