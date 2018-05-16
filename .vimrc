@@ -1,11 +1,8 @@
-set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
+" set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab 
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 set autoindent
 set nu
 
-" Bracketed Paste
-" Usefull to paste when `autoindent` is set
-"
-" Code from https://github.com/ConradIrwin/vim-bracketed-paste/blob/master/plugin/bracketed-paste.vim
 " Code from:
 " http://stackoverflow.com/questions/5585129/pasting-code-into-terminal-window-into-vim-on-mac-os-x
 " then https://coderwall.com/p/if9mda
@@ -49,5 +46,5 @@ vmap <expr> <f28> XTermPasteBegin("c")
 cmap <f28> <nop>
 cmap <f29> <nop>
 
-""" end bracketed paste
+"""
 
