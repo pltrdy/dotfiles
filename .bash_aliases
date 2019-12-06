@@ -7,6 +7,8 @@ alias lrt='ls -lrt'
 # About directories
 alias cdd='cd `ls -t | head -1`'
 
+alias empty_lines='grep -E --line-number --with-filename \'^$\' $1'
+
 # Text editors
 alias emacs='emacs -nw'
 
