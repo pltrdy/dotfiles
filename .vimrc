@@ -66,3 +66,5 @@ cmap <f29> <nop>
 
 """
 
+set ttymouse=xterm2
+set mouse=a
