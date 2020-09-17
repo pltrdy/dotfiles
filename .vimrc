@@ -11,6 +11,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'git://github.com/wsdjeg/vim-fetch.git'
+Plugin 'tpope/vim-abolish'
 
 call vundle#end()            " required
 filetype plugin indent off    " required
